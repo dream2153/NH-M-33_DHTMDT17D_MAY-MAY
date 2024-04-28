@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+    <link rel="icon" href="./favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="login-section" style="background-color: #9A616D;">
+        <div class="login-container">
+            <div class="login-container__child">
+                <div class="login-card col-9">
+                    <div class="login-card-body" style="border-radius: 1rem;">
+                        <div class="login-card-body__row">
+                            <div class="col-5 login-card-body__left">
+                                <img src="image/ĐN.jpg"
+                                    alt="login form" class="login-card-body__image" style="border-radius: 1rem 0 0 1rem;" width="439"/>
+                            </div>
+                            <div class="col-7 login-card-body__right">
+                                <div class="login-card-container__right">
+                                    <form>
+                                        <div class="logo-card-icon">
+                                            <img src="./image/logo-design.png" alt="" height="100" width="200">
+                                        </div>
+                                        <p class="login-card-header">Đăng nhập vào May&May</p>
+                                        <div data-mdb-input-init class="form-outline mb-4">
+                                            <label class="form-label" for="tendangnhap">Tên đăng nhập</label>
+                                            <input type="email" id="tendangnhap"
+                                                class="login-form-control" />
+                                        </div>
+
+                                        <div data-mdb-input-init class="form-outline mb-4">
+                                            <label class="form-label" for="matkhau">Mật khẩu</label>
+                                            <input type="password" id="matkhau"
+                                                class="login-form-control" />
+                                        </div>
+                                        <div class="d-flex align-items-center justify-content-between" style="margin-bottom: 30px">
+                                            <button class="login-card-button" id="login" type="button">Đăng nhập</button>
+                                            <a class="login-card-button__forget" href="#!">Quên mật khẩu?</a>
+                                        </div>
+                                        <p class="login-card-button__register">Bạn chưa có tài khoản? 
+                                            <a href="register.html">Đăng ký tại đây</a></p>
+                                    </form>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="main.js"></script>
+
+</html>
